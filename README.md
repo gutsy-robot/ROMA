@@ -33,6 +33,13 @@ corresponds to `6s4z_vs_10b30z` in the paper.
 
 The requirements.txt file can be used to install the necessary packages into a virtual environment (not recomended).
 
+Also, install tensorboardX, using:
+
+    pip install tensorboardX
+    
+Important Note: gfootball import lines have been removed in the fork as those were causing
+import issues.  
+
 ## Run an experiment 
 
 ```shell
