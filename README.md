@@ -69,6 +69,14 @@ They are all located in `src/config`.
 All results will be stored in the `Results` folder.
 
 
+A new test environment has been added to check if ROMA trains of a different reward.
+
+To try that, use
+
+     python3 src/main.py --config=qmix_smac_latent --env-config=sc2 \
+     with agent=latent_ce_dis_rnn env_args.map_name=MMM2 t_max=20050000 \
+     use_tensorboard=True env=sc2_wrapped
+
 
 ## Saving and loading learnt models
 
