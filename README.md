@@ -70,6 +70,7 @@ All results will be stored in the `Results` folder.
 
 
 A new test environment has been added to check if ROMA trains of a different reward.
+This environment is planned to be adapted for training GAIL.
 
 To try that, use
 
